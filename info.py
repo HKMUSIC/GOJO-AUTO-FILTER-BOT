@@ -31,13 +31,13 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'My_Tg_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #----------- There will be channel id add in all these ---------
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002610469508'))  # set shortner log channel
-DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','0')) # The movie you upload in it will be deleted from the bot.
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002610469508'))
-auth_channel = environ.get('AUTH_CHANNEL', '-1002046472370')
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', ''))  # set shortner log channel
+DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','')) # The movie you upload in it will be deleted from the bot.
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', ''))
+auth_channel = environ.get('AUTH_CHANNEL', '')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002606805279'))
-request_channel = environ.get('REQUEST_CHANNEL', '-1002696412573') # If anyone sends a request message to your bot, you will get it in this channel.
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '0')) # 
+request_channel = environ.get('REQUEST_CHANNEL', '') # If anyone sends a request message to your bot, you will get it in this channel.
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '')) # 
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/NOBITA_MOVIES_SEARCH') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -47,12 +47,12 @@ TUTORIAL = environ.get("TUTORIAL", "https://t.me/howtoopen_modijiurls")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/howtoopen_modijiurls")
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/howtoopen_modijiurls")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "654415d3d3b9bdbb4e3f97b5bad6d2296d524a46")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'modijiurl.com')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "654415d3d3b9bdbb4e3f97b5bad6d2296d524a46")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'modijiurl.com')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "654415d3d3b9bdbb4e3f97b5bad6d2296d524a46")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'Modijiurl.com')
+SHORTENER_API = environ.get("SHORTENER_API", "")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", '')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", '')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", '')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
 #---------------------------------------------------------------
