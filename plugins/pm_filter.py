@@ -463,7 +463,7 @@ async def quality_cb_handler(client: Client, query: CallbackQuery):
         return await query.answer(script.ALRT_TXT, show_alert=True)
     btn= []
     for i in range(0, len(QUALITIES)-1, 3):
-        btn.append([⁷
+        btn.append([
 		
             InlineKeyboardButton(
                 text=QUALITIES[i].title(),
