@@ -13,19 +13,19 @@ def is_enabled(value, default):
 #---------------------------------------------------------------
 #---------------------------------------------------------------         ,
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', '')
+API_ID = int(environ.get('API_ID', '21133412'))
+API_HASH = environ.get('API_HASH', 'b9a8cd0b04972c66b9a2996abf34745e'')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7794798528:AAGJ6Ox2bapdOI4FShkxxRcFh-JJhLi6UqU')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5536473064').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/ll_YOURR_NOBITA_ll") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002567576862'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/NOBITA_MOVIES_SEARCH')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002367446556').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://iamnobita1:nobitamusic1@cluster0.k08op.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'My_Tg_files')
 #---------------------------------------------------------------
@@ -34,7 +34,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'My_Tg_files')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002567576862'))  # set shortner log channel
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','')) # The movie you upload in it will be deleted from the bot.
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002610469508'))
-auth_channel = environ.get('AUTH_CHANNEL', '')
+auth_channel = environ.get('AUTH_CHANNEL', '-1002555515203')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002606805279'))
 request_channel = environ.get('REQUEST_CHANNEL', '-1002696412573') # If anyone sends a request message to your bot, you will get it in this channel.
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002046472370')) # 
@@ -69,7 +69,7 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', '')).split()
+START_IMG = (environ.get('START_IMG', 'https://files.catbox.moe/eeyo1g.jpg')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://files.catbox.moe/vtsmve.jpg')).split()
