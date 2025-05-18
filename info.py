@@ -18,7 +18,7 @@ API_HASH = environ.get('API_HASH', 'b9a8cd0b04972c66b9a2996abf34745e')
 BOT_TOKEN = environ.get('BOT_TOKEN', '7794798528:AAGJ6Ox2bapdOI4FShkxxRcFh-JJhLi6UqU')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5536473064').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5536473064 7763229951').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/ll_YOURR_NOBITA_ll") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002567576862'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/NOBITA_MOVIES_SEARCH')
